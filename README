@@ -1,0 +1,6 @@
+% GPR GPS boxcar 
+% this fucntion reads the MALA Ground Penetrating Radar 'cor' file, applies a moving average filter
+% to the elevations, then exports a smoothed cor file and a KML. This
+% requires the mapping toolbox of MATLAB to produce the KML. Also produces
+% a figure (just to screen, not saved) showing the input data BLUE and
+% smoothed result RED to evaluate the effectiveness of the smoothing.
